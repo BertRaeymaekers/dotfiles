@@ -75,3 +75,16 @@ highlight LineNr ctermbg=233
 " Autowrapping when pressing Q.
 vmap Q gq
 nmap Q gqap
+
+" powerline
+set laststatus=2
+
+" ctrlp - quickly navigate to files.
+let g:ctrlp_max_height = 30
+set wildignore+=*.pyc
+"set wildignore+=*_build/*
+"set wildignore+=*/coverage/*
+
+" python-mode
+
+
