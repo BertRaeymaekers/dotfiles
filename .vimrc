@@ -13,6 +13,10 @@ set smartindent
 set history=700
 set undolevels=700
 
+" Better copy/paste of blocks: enter/leave this mode with F2
+set pastetoggle=<F2>
+set clipboard=unnamed
+
 " Make search case insensitive
 set hlsearch
 set incsearch
