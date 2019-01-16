@@ -92,4 +92,5 @@ set wildignore+=*.pyc
 
 " python-mode
 
-
+" YAML file
+autocmd FileType yaml setlocal ai ts=2 sw=2 et
