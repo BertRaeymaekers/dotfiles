@@ -69,6 +69,7 @@ filetype plugin indent on
 syntax on
 
 " Showing line number as 80 column.
+set ruler
 set number
 set tw=79
 set nowrap
